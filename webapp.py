@@ -56,7 +56,7 @@ else:
     out = ('I am {:.2%} percent confirmed that this is a Pneumonia case'.format(hardik_preds[0][0]))
   
   else: 
-    out = ('I am {:.2%} percent confirmed that this is a Normal case'.format(1-hardik_preds[0][0]))
+    out = ('this is a Normal case')
 
   st.success(out)
   
