@@ -18,7 +18,7 @@ def loading_model():
 
 cnn = loading_model()
 st.write("""
-# To detect weather the patient is suffering from Pneumonia or not 
+#  detect weather the patient is suffering from Pneumonia or not 
 """)
 
 
