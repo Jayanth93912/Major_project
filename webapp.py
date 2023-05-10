@@ -9,7 +9,7 @@ from tempfile import NamedTemporaryFile
 from tensorflow.keras.preprocessing import image 
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
-@st.cache(allow_output_mutation=True)
+@st.cache_data(allow_output_mutation=True)
 
 def loading_model():
   fp = "cnn_pneu_vamp_model.h5"
